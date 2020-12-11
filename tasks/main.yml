@@ -21,7 +21,7 @@
 
 - name: copy oracle java (rpm)
   copy:
-    src: "{{ java_package }}"
+    src: "{{ java_oracle_package }}"
     dest: "/tmp/{{ java_oracle_package }}"
     mode: "0640"
   when:
